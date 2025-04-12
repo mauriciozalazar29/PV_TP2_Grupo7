@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+    <script>
+       const mostrarArreglo = (arreglo) => {
+            let resultado = "";
+            for (let i = 0; i < arreglo.length; i++){
+                resultado += arreglo [i] + "\n";
+            }
+            alert(resultado);
+       };
+       const ejecutar = () => {
+        const numeros = [10, 2, 23, 65];
+        mostrarArreglo(numeros);
+       };
+       window.onload = ejecutar;
+    </script>
+</head>
+<body>
+    <h1>Ejercicio 13 - mostrar arreglo<h1>
+</body>
+</html>
