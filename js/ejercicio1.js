@@ -1,3 +1,3 @@
-const integrantes = "Mauri, Mariano, Danilo, Ignacio, Maria";
+const integrantes = "Mauri, Mariano, Danila, Ignacio, Maria";
 
 console.log("Somos: " + integrantes + " y estamos aprendiendo javascript");
