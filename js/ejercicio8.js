@@ -7,5 +7,4 @@ const calcularMayor = (numero1, numero2) => {
         alert("Los numeros " + numero1 + " y " + numero2 + " son iguales");
     }
 }
-
 calcularMayor(1,10);
