@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio17</title>
+    <script>
+        function contarLetraA(cadena) {
+            let contador = 0;
+            for (let i = 0; i < cadena.length; i++) {
+                if (cadena[i].toLowerCase() === 'a') {
+                    contador++;
+                }
+            }
+            return contador;
+        }
+
+        let texto = prompt("Ingrese una cadena de texto que contenga a:");
+        let cantidadA = contarLetraA(texto);
+        alert("La letra 'a' aparece " + cantidadA + " veces en el texto.");
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

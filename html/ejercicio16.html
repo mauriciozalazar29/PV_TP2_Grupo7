@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <script>
+        const sumarRango = (inicio, fin) => {
+            if (inicio > fin) {
+                return "El número inicial debe ser menor o igual que el número final";
+            }
+            
+            let suma = 0;
+            for (let i = inicio; i <= fin; i++) {
+                suma += i;
+            }
+            return suma;
+        };
+        
+        const ejecutar = () => {
+            const inicio = parseInt(prompt("Ingrese el número inicial: "));
+            const fin = parseInt(prompt("Ingrese el número final: "));
+            
+            const resultado = sumarRango(inicio, fin);
+
+            /// Verifica si el resultado es un string (mensaje de error)
+            if (typeof resultado === "string") {
+                alert(resultado); 
+            } else {
+                /// Si no es un string, entonces es un número y se muestra el resultado
+            alert("La suma de los números del " + inicio + " al " + fin + " es: " + resultado);
+            }
+        };
+        window.onload = ejecutar;
+    </script>
+</head>
+<body>
+    <h1>Ejercicio 16 - sumar rango<h1>
+</body>
+</html>
