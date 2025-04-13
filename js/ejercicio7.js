@@ -1,6 +1,6 @@
 const nombres = ["Ana", "Juan", "Lazaro", "Danila", "Alejandro", "Exequiel"];
 
-const NombreMasLargo = (nombres) => {
+const nombreMasLargo = (nombres) => {
   let nombreMasLargo = "";
   
   for (let i = 0; i < nombres.length; i++) {
@@ -11,4 +11,4 @@ const NombreMasLargo = (nombres) => {
   return nombreMasLargo;
 };
 
-console.log("El nombre más largo es: " + NombreMasLargo(nombres));
+console.log("El nombre más largo es: " + nombreMasLargo(nombres));
