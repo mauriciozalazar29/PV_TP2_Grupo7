@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio16</title>
+    <script>
+        let numeroInicial = 1;
+        let numeroFinal = 5;
+
+        function sumarRango(numeroInicial, numeroFinal) {
+            if (numeroInicial > numeroFinal) {
+                return "Error: El número inicial debe ser menor o igual al número final.";
+            }
+            let suma = 0;
+            for (let i = numeroInicial; i <= numeroFinal; i++) {
+                suma += i;
+            }
+            return suma;
+        }
+
+        let resultado = sumarRango(numeroInicial, numeroFinal);
+
+        if (typeof resultado === "string") {
+            alert(resultado); // Mostrar mensaje de error si la validación falla
+            document.write(resultado);
+        } else {
+            alert("La suma de los números del " + numeroInicial + " al " + numeroFinal + " es: " + resultado);
+        }    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
