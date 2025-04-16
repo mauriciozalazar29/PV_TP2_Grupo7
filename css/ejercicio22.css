@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fdf6f9;
+    color: #2b2b2b;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(216, 27, 96, 0.1);
+  }
+  
+  h1 {
+    color: #d81b60;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  
+  .input {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    display: block;
+    color: #880e4f;
+    font-size: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #f8bbd0;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: #fff0f5;
+    color: #2b2b2b;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #d81b60;
+    box-shadow: 0 0 0 4px rgba(216, 27, 96, 0.2);
+    outline: none;
+  }
+  
+  .output {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 50px;
+    border: 1px solid #f8bbd0;
+    box-shadow: 0 5px 10px rgba(216, 27, 96, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .output:hover {
+    transform: translateY(-3px);
+  }
+  
+  .output-text {
+    line-height: 1.6;
+    color: #2b2b2b;
+    font-size: 16px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  h2 {
+    color: #ad1457;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .contador {
+    margin-top: 10px;
+    font-size: bold;
+    color: #880e4f;
+    text-align: right;
+    
+  }
+  
+  .background-changed {
+    background-color: #f06292 !important;
+    color: white;
+    transition: background-color 0.4s ease;
+  }
+  

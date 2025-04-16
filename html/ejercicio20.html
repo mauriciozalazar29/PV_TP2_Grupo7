@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 20</title>
-    <link rel="stylesheet" href="../css/ejercicio20.css">
+  <meta charset="UTF-8">
+  <title>Ejercicio 20</title>
+  <link rel="stylesheet" href="../css/ejercicio20.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Países y Capitales de América</h1>
-        
-        <div class="formulario">
-            <label for="paises">Seleccione un país:</label>
-            <select id="paises">
-                <option value="" selected disabled>-- País --</option>
-                <option value="argentina">Argentina</option>
-                <option value="brasil">Brasil</option>
-                <option value="canada">Canadá</option>
-                <option value="colombia">Colombia</option>
-                <option value="mexico">México</option>
-                <option value="peru">Perú</option>
-                <option value="eeuu">Estados Unidos</option>
-                <option value="chile">Chile</option>
-            </select>
-        </div>
-        
-        <div class="formulario">
-            <label for="capitales">Capital correspondiente:</label>
-            <select id="capitales">
-                <option value="" selected disabled>-- Capital --</option>
-                <option value="argentina">Buenos Aires</option>
-                <option value="brasil">Brasilia</option>
-                <option value="canada">Ottawa</option>
-                <option value="colombia">Bogotá</option>
-                <option value="mexico">Ciudad de México</option>
-                <option value="peru">Lima</option>
-                <option value="eeuu">Washington D.C.</option>
-                <option value="chile">Santiago</option>
-            </select>
-        </div>
-        
-        <div class="selection" id="info">
-            <p>Seleccione un país para ver su capital</p>
-        </div>
+  <div class="container">
+    <h1>Países y Capitales de América</h1>
+    
+    <div class="form-group">
+        <label for="paises">Seleccione un país:</label>
+        <select id="paises">
+            <option value="" selected disabled>-- Seleccione un país --</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Colombia">Colombia</option>
+            <option value="México">México</option>
+            <option value="Perú">Perú</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Chile">Chile</option>
+        </select>
     </div>
+    
+    <div class="form-group">
+        <label for="capitales">Capital correspondiente:</label>
+        <select id="capitales">
+            <option value="" selected disabled>-- Seleccione una capital --</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Brasilia">Brasilia</option>
+            <option value="Ottawa">Ottawa</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Ciudad de México">Ciudad de México</option>
+            <option value="Lima">Lima</option>
+            <option value="Washington D.C.">Washington D.C.</option>
+            <option value="Santiago">Santiago</option>
+        </select>
+    </div>
+</div>
 
-    <script type="module" src="../js/ejercicio20.js"></script>
+  <div class="resultado" id="resultado">
+      <p>La información del país y capital aparecerá aquí mientras seleccionas...</p>
+  </div>
+  <script type="module" src="../js/ejercicio20.js"></script>
 </body>
 </html>
